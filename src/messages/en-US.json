@@ -1,0 +1,42 @@
+{
+  "Upload": {
+    "title": "FilmLens AI",
+    "subtitle": "Upload film clips or features to begin fine-grained cinematic analysis via LLMs",
+    "dropArea": "Click to select a video file or drag & drop here",
+    "supportedFormats": "Supported: MP4, MOV, MKV, AVI | Max 4GB",
+    "uploading": "Uploading and buffering engine...",
+    "duration": "Duration: {duration}s",
+    "size": "Size: {size} MB"
+  },
+  "Analyze": {
+    "title": "FilmLens AI",
+    "workspace": "Analysis Workspace",
+    "analyzed": "Analyzed",
+    "shots": "Shots",
+    "analyzing": "Engine Inference Running",
+    "completed": "Pipeline Completed",
+    "detecting": "Detecting Cinematic Cuts...",
+    "videoUnavailable": "Video source unavailable, please re-upload.",
+    "errorBoundary": "Video load failed, check format or memory leak."
+  },
+  "Sidebar": {
+    "cameraLighting": "Camera & Lighting",
+    "theory": "Theoretical Framework",
+    "sourcesTitle": "Original Sources · Direct Access",
+    "chineseLiterature": "Chinese Literature",
+    "contextualAnalysisTitle": "Deep AI Shot Analysis",
+    "researchMap": "Research Map",
+    "themes": "Core Themes",
+    "techniques": "Technical Perspectives",
+    "excerpt": "Original Excerpt",
+    "copyButton": "Copy Origin",
+    "copied": "Copied ✓",
+    "copyFailed": "Copy Manually",
+    "annotationLocked": "Annotation locked, strictly matches AI output",
+    "askPlaceholder": "Ask AI about this scene...",
+    "scene": "Scene",
+    "freeFullText": "Open Access",
+    "sourcesFailed": "Sources load failed. Try ",
+    "manualSearch": "manual search"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Upload": {
+    "title": "FilmLens AI",
+    "subtitle": "拖入任何电影片段或长片资源，即刻开启基于大模型的影视细粒度拉片引擎",
+    "dropArea": "点击选择独立视频文件 或拖拽源文件到此处",
+    "supportedFormats": "兼容格式：MP4, MOV, MKV, AVI 限制 4GB",
+    "uploading": "上传中并缓冲引擎...",
+    "duration": "时长: {duration}s",
+    "size": "大小: {size} MB"
+  },
+  "Analyze": {
+    "title": "FilmLens AI",
+    "workspace": "Analysis Workspace",
+    "analyzed": "已分析成果",
+    "shots": "镜头",
+    "analyzing": "引擎分析推理中",
+    "completed": "流水线结案完备",
+    "detecting": "引擎正在切镜拆片...",
+    "videoUnavailable": "视频源不可用，请回首页重新上传",
+    "errorBoundary": "视频加载失败，检查文件格式或内存链接存活状态"
+  },
+  "Sidebar": {
+    "cameraLighting": "Camera & Lighting",
+    "theory": "Theoretical Framework",
+    "sourcesTitle": "原文来源 · 可直接访问",
+    "chineseLiterature": "中文文献",
+    "contextualAnalysisTitle": "AI 深度拉片分析",
+    "researchMap": "论文引用地图",
+    "themes": "核心主题讨论",
+    "techniques": "技法视角研究",
+    "excerpt": "引用原文",
+    "copyButton": "复制原文",
+    "copied": "已复制 ✓",
+    "copyFailed": "请手动复制",
+    "annotationLocked": "注释内容已锁定，与 AI 生成原文完全一致",
+    "askPlaceholder": "Ask AI about this scene...",
+    "scene": "Scene",
+    "freeFullText": "免费全文",
+    "sourcesFailed": "来源加载失败。可以尝试 ",
+    "manualSearch": "手动搜索"
+  }
+}

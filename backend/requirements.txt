@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+redis
+google-genai
+httpx
+scenedetect[opencv]
+python-dotenv
+numpy
+opencv-python-headless
+aiofiles
+ffmpeg-python
