@@ -45,39 +45,40 @@ async def handle_chat_query(job_id: str, shot_id: int | None, question: str):
                         shot_analysis = report_data.get("analyses", {}).get(str(shot_id), {})
 
         # 2. Build the chat prompt
-        title = film_context.get("film_title", "未命名片段")
-        director = film_context.get("director", "未知")
-        summary = film_context.get("summary", "暂无总结")
+        title = film_context.get("film_title", "Untitled")
+        director = film_context.get("director", "Unknown")
+        summary = film_context.get("summary", "No summary available.")
         
-        system_prompt = f"""你是一个资深的电影学者和拉片专家。用户正在观看影片《{title}》（导演：{director}）。
-你已经对全片进行了视听预分析，当前用户对某个特定镜头或全片提出了深度追问。
+        system_prompt = f"""You are a senior film scholar and cinematic analysis expert. The user is watching the film "{title}" (Directed by: {director}).
+You have already conducted a pre-analysis of the entire film, and the user is now asking follow-up questions about a specific shot or the entire film.
 
-影片宏观背景:
+Film Macro Context:
 {summary}
 
 """
         if shot_analysis:
             theory = shot_analysis.get("theoretical_connections", [])
-            technique = shot_analysis.get("primary_technique", "未知")
-            system_prompt += f"""当前追问聚焦镜头: 第 {shot_id} 镜
-主要技法: {technique}
-已有关联理论: {json.dumps(theory, ensure_ascii=False)}
-叙事功能: {shot_analysis.get("narrative_function", "未知")}
+            technique = shot_analysis.get("primary_technique", "Unknown")
+            system_prompt += f"""Current focus: Shot {shot_id}
+Primary technique: {technique}
+Theoretical connections: {json.dumps(theory, ensure_ascii=False)}
+Narrative function: {shot_analysis.get("narrative_function", "Unknown")}
 
 """
 
-        system_prompt += """请基于以上背景，专业、深刻且友好地回答用户的问题。如果问题涉及电影理论，请引用学术概念；如果涉及视觉分析，请解释导演可能的意图。
-回答要求：
-- 语言简练但也保证学术深度（约 150-300 字）
-- 使用与系统一致的语言（中文）
-- 保持专业电影拉片的基调
+        system_prompt += """Based on the context above, provide professional, profound, and friendly answers to the user's questions. If the question involves film theory, cite academic concepts; if it involves visual analysis, explain the director's potential intentions.
+
+Requirements:
+- Ensure academic depth but keep it concise (approx. 150-300 words).
+- Use English for all responses.
+- Maintain a tone consistent with professional cinematic analysis.
 """
 
         # 3. Call Gemini
         if not native_client:
             await r.publish(f"channel:{job_id}", json.dumps({
                 "event": "chat_response",
-                "answer": "❌ 抱歉，AI 聊天服务尚未配置 API Key。"
+                "answer": "❌ Sorry, the AI chat service is not configured with an API Key."
             }, ensure_ascii=False))
             return
 
@@ -85,7 +86,7 @@ async def handle_chat_query(job_id: str, shot_id: int | None, question: str):
         response = await asyncio.to_thread(
             native_client.models.generate_content,
             model=LLM_MODEL,
-            contents=[system_prompt, f"用户提问：{question}"],
+            contents=[system_prompt, f"User Question: {question}"],
             config=types.GenerateContentConfig(temperature=0.7)
         )
         answer = response.text
@@ -102,6 +103,6 @@ async def handle_chat_query(job_id: str, shot_id: int | None, question: str):
         try:
             await r.publish(f"channel:{job_id}", json.dumps({
                 "event": "chat_response",
-                "answer": f"⚠️ 在思考时出了点小差错 ({str(e)})，请稍后再试。"
+                "answer": f"⚠️ An error occurred while thinking ({str(e)}). Please try again later."
             }))
         except: pass

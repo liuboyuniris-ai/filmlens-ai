@@ -39,11 +39,11 @@ export default function UploadPage() {
     setError(null)
     const validTypes = ['video/mp4', 'video/quicktime', 'video/x-matroska', 'video/avi']
     if (!validTypes.includes(selectedFile.type) && !selectedFile.name.match(/\.(mp4|mov|mkv|avi)$/i)) {
-      setError('仅支持 MP4, MOV, MKV, AVI 格式')
+      setError(t('unsupportedFormat'))
       return
     }
     if (selectedFile.size > 4 * 1024 * 1024 * 1024) {
-      setError('文件大小不能超过 4GB')
+      setError(t('fileTooLarge'))
       return
     }
     
@@ -79,8 +79,8 @@ export default function UploadPage() {
     setIsUploading(true)
     const formData = new FormData()
     formData.append('file', uploadFile)
-    formData.append('film_title', title || '未命名片段')
-    formData.append('director', director || '未知')
+    formData.append('film_title', title || t('untitled'))
+    formData.append('director', director || t('unknown'))
     formData.append('film_title_en', titleEn || '')
     formData.append('director_en', directorEn || '')
     
@@ -115,17 +115,17 @@ export default function UploadPage() {
           // Switch route smoothly to layout screen
           router.push(`/analyze/${res.job_id}`)
         } catch (err) {
-          setError('服务器响应解析异常，请重试')
+          setError(t('parseError'))
           setIsUploading(false)
         }
       } else {
-        setError(`上传请求异常 (HTTP ${xhr.status})`)
+        setError(t('httpError', { status: xhr.status }))
         setIsUploading(false)
       }
     }
 
     xhr.onerror = () => {
-      setError('网络阻塞或接口拒绝连接，请检查环境！')
+      setError(t('networkError'))
       setIsUploading(false)
     }
 
@@ -147,22 +147,22 @@ export default function UploadPage() {
           <div className="space-y-4 mb-6">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">影片名称 (中文)</label>
+                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">{t('titleCn')}</label>
                 <input 
                   type="text" 
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  placeholder="例如：花样年华"
+                  placeholder={t('placeholderCn')}
                   className="w-full bg-[#0F0F0F] border border-gray-800 rounded-xl px-4 py-3 text-[14px] focus:border-[#5B4FCF] focus:outline-none transition-colors placeholder:text-gray-600 shadow-inner"
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">导演 (中文)</label>
+                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">{t('directorCn')}</label>
                 <input 
                   type="text" 
                   value={director}
                   onChange={(e) => setDirector(e.target.value)}
-                  placeholder="例如：王家卫"
+                  placeholder={t('placeholderDirector')}
                   className="w-full bg-[#0F0F0F] border border-gray-800 rounded-xl px-4 py-3 text-[14px] focus:border-[#5B4FCF] focus:outline-none transition-colors placeholder:text-gray-600 shadow-inner"
                 />
               </div>
@@ -170,7 +170,7 @@ export default function UploadPage() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">Film Title (English)</label>
+                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">{t('titleEn')}</label>
                 <input 
                   type="text" 
                   value={titleEn}
@@ -180,7 +180,7 @@ export default function UploadPage() {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">Director (English)</label>
+                <label className="text-[11px] text-gray-500 font-bold uppercase tracking-wider pl-1">{t('directorEn')}</label>
                 <input 
                   type="text" 
                   value={directorEn}

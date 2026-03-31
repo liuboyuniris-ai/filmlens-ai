@@ -1,83 +1,84 @@
-# FilmLens AI 🎬 (学术级拉片辅助引擎)
+# FilmLens AI 🎬 (Academic-Grade Cinema Analysis Engine)
 
-**FilmLens AI** 是一款专为电影学者、学生及影评人设计的深度“拉片”工具。它结合了最新的 **Google Gemini 多模态大模型** 与 **学术文献检索技术**，能够将长达数小时的电影自动切分为独立镜头，并生成视听语言解析与学术互文报告。
-
----
-
-## 🔥 核心特性
-
-- **长片高效支持**：针对 2 小时+ 电影进行了深度优化，支持长片镜头并行分析。
-- **AI 视听语言解析**：自动识别景别（Shot Scale）、运镜（Movement）、角度（Angle）、光影（Lighting）及导演作者风格（Auteur Style）。
-- **学术互文图谱**：实时对接 **Semantic Scholar**、**SerpApi** 等学术数据库，自动匹配电影理论文献。
-- **持久化分析报告**：所有分析结果自动保存为 `analysis.json`，支持任务重载与随时复盘，避免重复扣费。
-- **Premium 设计**：精心构建的多分栏协作工作台，支持时间轴联动与实时 AI 对话。
+**FilmLens AI** is a professional cinematic analysis tool designed for film scholars, students, and critics. It combines the latest **Google Gemini Multimodal LLM** with **Academic Research Mapping** to automatically segment feature-length films into individual shots, providing detailed audiovisual analysis and theoretical context.
 
 ---
 
-## 🛡️ 隐私与安全说明 (GitHub 必读)
+## 🔥 Core Features
 
-1.  **API Key 安全**：本项目已配置 `.gitignore` 自动忽略 `.env` 文件。**请永远不要将包含真实 Key 的 `.env` 推送到 GitHub。**
-2.  **大文件过滤**：由于电影文件体积巨大（通常 > 1GB），项目已自动忽略 `/static/jobs/` 下的所有视频、帧图片及分析缓存，确保仓库整洁且符合 GitHub 上传限制。
-
----
-
-## 🛠️ 环境准备
-
-- **Python 3.10+** (后端 API)
-- **Node.js 18+** (Next.js 前端)
-- **Redis** (核心：用于 WebSocket 事件推送与数据缓存)
-- **FFmpeg** (**必须安装**：用于视频、关键帧处理)
+- **High-Efficiency Feature Support**: Deeply optimized for 2h+ movies, supporting concurrent batch analysis for long films.
+- **AI Audiovisual Analysis**: Automatically detects Shot Scale, Camera Movement, Angle, Lighting, and Director's Auteur Style.
+- **Academic Research Mapping**: Real-time integration with **Semantic Scholar**, **SerpApi**, and other academic databases to match film theory literature automatically.
+- **Persistent Analysis Reports**: All analysis results are saved as `analysis.json`, supporting session reloading to avoid redundant API costs.
+- **Premium Design**: A sophisticated multi-pane workspace with synchronized timeline controls and real-time AI theoretical chat.
 
 ---
 
-## 📦 安装与配置
+## 🛡️ Privacy & Security (Important for Public Repos)
 
-### 1. 配置环境参数
-在根目录下新建 `.env` 文件，填入：
+1.  **API Key Security**: This project is configured with `.gitignore` to ignore `.env` files. **NEVER push your real `.env` file to GitHub.**
+2.  **Large File Filtering**: Since movie files are massive (> 1GB), the project automatically ignores everything under `/static/jobs/` (videos, frames, and analysis cache) to keep the repository clean and comply with GitHub's file size limits.
+
+---
+
+## 🛠️ Prerequisites
+
+- **Python 3.10+** (Backend API)
+- **Node.js 18+** (Next.js Frontend)
+- **Redis** (Critical: Used for WebSocket event pushing and data caching)
+- **FFmpeg** (**Required**: Used for video transcoding and frame extraction)
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Configuration
+Create a `.env` file in the root directory:
 ```bash
-# Google Gemini API Key (必须)
+# Google Gemini API Key (Required)
 LLM_API_KEY="AIza..."
 LLM_MODEL="gemini-2.0-flash"
 
-# Redis 配置
+# Redis Configuration
 REDIS_URL="redis://localhost:6379"
 
-# 学术检索 API (可选)
+# Academic Search APIs (Optional)
 SEMANTIC_SCHOLAR_API_KEY="..."
 SERPAPI_API_KEY="..."
 ```
 
-### 2. 后端安装
+### 2. Backend Installation
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. 前端安装
+### 3. Frontend Installation
 ```bash
 npm install
 ```
 
 ---
 
-## 🏃 运行程序
+## 🏃 Running the Application
 
-1.  **启动后端**：`python -m backend.main` (默认 8000 端口)
-2.  **启动前端**：`npm run dev` (默认 3000 端口)
-
----
-
-## 💡 特殊技巧：手动导入超长电影 (Import Hack)
-
-如果你的计算机性能不足以支持 2 小时电影的**即时转码与切片**，可以参考以下步骤在其他高性能机器操作后导入：
-
-1.  在高性能机器完成分析后，将对应的 `jobs/{uuid}/` 文件夹整体拷贝到本机 `static/jobs/` 下。
-2.  确保文件夹内包含 `video.mp4`、`analysis.json` 和 `frames/` 目录。
-3.  **无需重新上传**，直接在浏览器访问：`http://localhost:3000/analyze/{uuid}`。
-4.  系统将自动检测现有数据，**秒级加载**全片分析结果。
+1.  **Start Redis**: Ensure your Redis service is running.
+2.  **Start Backend**: `python -m backend.main` (Default: port 8000)
+3.  **Start Frontend**: `npm run dev` (Default: port 3000)
 
 ---
 
-## 📜 开源协议
-MIT License. 共同推动电影研究数字化！
+## 💡 Pro Tip: Importing Large Movies (Import Hack)
+
+If your machine lacks the performance to transcode 2-hour movies in real-time, follow these steps to import pre-processed data:
+
+1.  After processing on a high-performance machine, copy the entire `jobs/{uuid}/` folder to your local `static/jobs/` directory.
+2.  Ensure the folder contains `video.mp4`, `analysis.json`, and the `frames/` directory.
+3.  **DO NOT re-upload** in the UI. Simply browse to: `http://localhost:3000/analyze/{uuid}`.
+4.  The system will detect the existing data and load the full analysis **instantly**.
+
+---
+
+## 📜 License
+MIT License. Empowering digital humanities and film studies!

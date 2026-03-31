@@ -20,9 +20,9 @@ async def upload_video(
     request: Request, 
     background_tasks: BackgroundTasks, 
     file: UploadFile = File(...),
-    locale: str = Form("zh-CN"),
-    film_title: str = Form("未命名片段"),
-    director: str = Form("未知"),
+    locale: str = Form("en-US"),
+    film_title: str = Form("Untitled Clip"),
+    director: str = Form("Unknown"),
     film_title_en: str = Form(""),
     director_en: str = Form("")
 ):

@@ -41,7 +41,7 @@ export default function AnalyzePage() {
     return (
       <div className="w-full h-screen bg-black flex flex-col items-center justify-center text-gray-400 gap-4">
         <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-[#5B4FCF]"></div>
-        <p>正在拉取视频资源或重定向...</p>
+        <p>{t('pulling')}</p>
       </div>
     )
   }

@@ -6,7 +6,20 @@
     "supportedFormats": "Supported: MP4, MOV, MKV, AVI | Max 4GB",
     "uploading": "Uploading and buffering engine...",
     "duration": "Duration: {duration}s",
-    "size": "Size: {size} MB"
+    "size": "Size: {size} MB",
+    "unsupportedFormat": "Only MP4, MOV, MKV, AVI formats are supported",
+    "fileTooLarge": "File size cannot exceed 4GB",
+    "untitled": "Untitled Clip",
+    "unknown": "Unknown",
+    "parseError": "Server response parse error, please try again",
+    "httpError": "Upload request failed (HTTP {status})",
+    "networkError": "Network congestion or interface refused, check your environment!",
+    "titleCn": "Film Title (Chinese)",
+    "directorCn": "Director (Chinese)",
+    "titleEn": "Film Title (English)",
+    "directorEn": "Director (English)",
+    "placeholderCn": "e.g. In the Mood for Love",
+    "placeholderDirector": "e.g. Wong Kar-wai"
   },
   "Analyze": {
     "title": "FilmLens AI",
@@ -17,7 +30,8 @@
     "completed": "Pipeline Completed",
     "detecting": "Detecting Cinematic Cuts...",
     "videoUnavailable": "Video source unavailable, please re-upload.",
-    "errorBoundary": "Video load failed, check format or memory leak."
+    "errorBoundary": "Video load failed, check format or memory leak.",
+    "pulling": "Pulling video resources or redirecting..."
   },
   "Sidebar": {
     "cameraLighting": "Camera & Lighting",
@@ -34,9 +48,31 @@
     "copyFailed": "Copy Manually",
     "annotationLocked": "Annotation locked, strictly matches AI output",
     "askPlaceholder": "Ask AI about this scene...",
+    "send": "Send",
     "scene": "Scene",
     "freeFullText": "Open Access",
     "sourcesFailed": "Sources load failed. Try ",
-    "manualSearch": "manual search"
+    "manualSearch": "manual search",
+    "ready": "Ready",
+    "readySub": "Play video or click timeline to invoke\nAI cinematic analysis results",
+    "tabAnalysis": "Shot Analysis",
+    "tabResearch": "Research Citations",
+    "tabOverview": "Global Overview",
+    "tabInquiry": "Inquiry",
+    "visualSummary": "Visual & Narrative Summary",
+    "politicalLabel": "Political Intertextuality",
+    "economicLabel": "Economic Background",
+    "culturalLabel": "Cultural Studies",
+    "genderLabel": "Gender & Power",
+    "auteurAnalysis": "Auteur Stylistic Analysis",
+    "generatingReport": "Generating Macro Report",
+    "generatingReportSub": "Summarizing audiovisual language and theoretical context from shot analysis, creating deep report...",
+    "inquiryPlaceholder": "Ask the AI here for deep insights\nabout the current shot or the entire film",
+    "basedOnShot": "Based on Shot {id}",
+    "seconds": "s",
+    "renderFailed": "Shot rendering failed due to data format changes",
+    "noResearchTitle": "No deep academic discussion found",
+    "noResearchSub": "Could not retrieve specific deep research abstracts from Google Scholar or Semantic Scholar for this film. You can check the Global Overview or ask the AI in Inquiry for more insights.",
+    "researchSummary": "Based on deep learning of massive academic abstracts, identifying the most discussed research dimensions for this film ensemble."
   }
 }

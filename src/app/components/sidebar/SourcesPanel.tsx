@@ -6,11 +6,11 @@ import { useTranslations } from 'next-intl'
 const DATABASE_DISPLAY: Record<string, { label: string, region: string, color: string, badge: string }> = {
   "SemanticScholar": { "label": "Semantic Scholar", "region": "INTL", "color": "#1857B6", "badge": "S2" },
   "CrossRef": { "label": "CrossRef / DOI", "region": "INTL", "color": "#E18335", "badge": "DOI" },
-  "CNKI": { "label": "中国知网 CNKI", "region": "CN", "color": "#DE2910", "badge": "知" },
+  "CNKI": { "label": "CNKI (Academic China)", "region": "CN", "color": "#DE2910", "badge": "知" },
   "JSTOR": { "label": "JSTOR", "region": "US", "color": "#2B5797", "badge": "J" },
   "GoogleScholar": { "label": "Google Scholar", "region": "INTL", "color": "#4285F4", "badge": "G" },
-  "WanFang": { "label": "万方数据", "region": "CN", "color": "#C0392B", "badge": "万" },
-  "VIP": { "label": "维普期刊", "region": "CN", "color": "#E74C3C", "badge": "维" },
+  "WanFang": { "label": "WanFang Data", "region": "CN", "color": "#C0392B", "badge": "万" },
+  "VIP": { "label": "VIP Journals", "region": "CN", "color": "#E74C3C", "badge": "维" },
   "ProQuest": { "label": "ProQuest", "region": "US", "color": "#003865", "badge": "PQ" },
   "PhilPapers": { "label": "PhilPapers", "region": "INTL", "color": "#5B4FCF", "badge": "PP" },
 }
@@ -112,9 +112,9 @@ export default function SourcesPanel({ analysis }: SourcesPanelProps) {
 
       {isAnyError && !isAnyLoading && allSources.length === 0 && (
         <div className="text-xs text-red-500 bg-red-50 border border-red-100 p-3 rounded-lg mb-3">
-          自动搜索失败。
+          Automatic search failed.
           <br />
-          理论检索遇到了网络错误。
+          The theoretical search encountered a network error.
         </div>
       )}
 

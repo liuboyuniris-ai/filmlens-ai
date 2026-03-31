@@ -93,7 +93,7 @@ def build_rag_injection(snippets: list[str]) -> str:
     if not snippets:
         return ""
 
-    header = "══════════════════════════════════════════\n学术影评参考（来自 Semantic Scholar，仅供语言风格参考）\n══════════════════════════════════════════\n以下是学术界对该影片或导演的真实分析片段。\n参考这些文本的分析角度和论证方式，不要直接引用，用你自己的语言进行分析：\n\n"
+    header = "══════════════════════════════════════════\nAcademic Criticism Reference (from Semantic Scholar)\n══════════════════════════════════════════\nBelow are real academic analysis snippets for this film or director.\nReference these for stylistic and theoretical inspiration without direct copying:\n\n"
     content = ""
     for i, snippet in enumerate(snippets):
         content += f"[{i+1}] {snippet[:300]}...\n\n"

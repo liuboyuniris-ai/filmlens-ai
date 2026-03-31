@@ -18,9 +18,9 @@ export default function PaperCitationsPanel({ researchMap }: PaperCitationsPanel
         <div className="w-16 h-16 bg-gray-50 rounded-full flex items-center justify-center mx-auto mb-6">
           <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
         </div>
-        <h4 className="font-bold text-gray-900 mb-2">暂无深度学术讨论汇总</h4>
+        <h4 className="font-bold text-gray-900 mb-2">{t('noResearchTitle')}</h4>
         <p className="text-[13px] text-gray-400 leading-relaxed">
-          未能从 Google Scholar 或 Semantic Scholar 检索到该影片的特定深度研究摘要。你可以尝试在“全片概览”中查看宏观背景，或在“追问”中咨询更多信息。
+          {t('noResearchSub')}
         </p>
       </div>
     )
@@ -32,7 +32,7 @@ export default function PaperCitationsPanel({ researchMap }: PaperCitationsPanel
         <h4 className="text-[11px] font-bold uppercase tracking-[0.2em] opacity-70 mb-1">Global Research Map</h4>
         <h2 className="text-xl font-black mb-1 leading-tight">{t('researchMap')}</h2>
         <p className="text-[12px] opacity-80 leading-relaxed mt-2">
-          基于大模型对海量学术论文摘要的深度学习，自动识别本片在学术界最受关注的讨论维度。
+          {t('researchSummary')}
         </p>
       </div>
 

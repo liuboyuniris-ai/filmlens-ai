@@ -31,9 +31,9 @@ async def transcode_to_mp4_async(input_path: str, output_path: str):
 async def run_analysis_pipeline(
     job_id: str, 
     video_path: str, 
-    locale: str = "zh-CN", 
-    film_title: str = "未命名片段", 
-    director: str = "未知",
+    locale: str = "en-US", 
+    film_title: str = "Untitled Clip", 
+    director: str = "Unknown",
     film_title_en: str = "",
     director_en: str = ""
 ):
@@ -51,7 +51,7 @@ async def run_analysis_pipeline(
             await publish_event(job_id, {
                 "event": "complete",
                 "job_id": job_id,
-                "message": "检测到已有分析结果，已自动加载。"
+                "message": "Existing analysis results detected. Loading automatically."
             })
             return
 
@@ -63,15 +63,15 @@ async def run_analysis_pipeline(
             film_title=film_title,
             director=director,
             production_year=2024,
-            country_of_production="未知",
-            political="等待全片汇总...",
-            economic="等待全片汇总...",
-            cultural="等待全片汇总...",
-            gender_sexuality="等待全片汇总...",
-            postcolonial="等待全片汇总...",
-            technological="等待全片汇总...",
-            auteur_biography="等待全片汇总...",
-            summary="正在分析镜头以生成摘要...",
+            country_of_production="Unknown",
+            political="Waiting for summary...",
+            economic="Waiting for summary...",
+            cultural="Waiting for summary...",
+            gender_sexuality="Waiting for summary...",
+            postcolonial="Waiting for summary...",
+            technological="Waiting for summary...",
+            auteur_biography="Waiting for summary...",
+            summary="Analyzing shots to generate summary...",
             search_keywords_en=[film_title_en, director_en] if film_title_en else [],
             search_keywords_cn=[film_title, director]
         )
@@ -87,7 +87,7 @@ async def run_analysis_pipeline(
         
         await publish_event(job_id, {
             "event": "pipeline_started",
-            "message": f"引擎流水线已启动: 《{film_title}》"
+            "message": f"Engine pipeline started: '{film_title}'"
         })
 
         # 2. Transcode
@@ -163,7 +163,7 @@ async def run_analysis_pipeline(
         await publish_event(job_id, {
             "event": "complete", # Use 'complete' consistently
             "job_id": job_id,
-            "message": "影片分析与学术资源地图构建已完成。"
+            "message": "Film analysis and research mapping completed."
         })
         print(f"[Pipeline {job_id}] Done.")
 
@@ -172,5 +172,5 @@ async def run_analysis_pipeline(
         traceback.print_exc()
         await publish_event(job_id, {
             "event": "error",
-            "message": f"流水线运行出错: {str(e)}"
+            "message": f"Pipeline execution error: {str(e)}"
         })
