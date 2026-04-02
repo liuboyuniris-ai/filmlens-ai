@@ -44,6 +44,10 @@ yarn-error.log*
 *.mkv
 *.mov
 *.avi
+!public/demo/*.mp4
+!public/demo/*.mkv
+!public/demo/*.mov
+!public/demo/*.avi
 
 # Python
 __pycache__/
