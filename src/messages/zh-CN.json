@@ -19,7 +19,9 @@
     "titleEn": "影片名称 (英文)",
     "directorEn": "导演 (英文)",
     "placeholderCn": "例如：花样年华",
-    "placeholderDirector": "例如：王家卫"
+    "placeholderDirector": "例如：王家卫",
+    "demoToggle": "由于服务器限制，此处建议使用演示版",
+    "demoButton": "运行演示版 (Demo)"
   },
   "Analyze": {
     "title": "FilmLens AI",

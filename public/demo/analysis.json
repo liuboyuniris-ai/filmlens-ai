@@ -1,0 +1,1396 @@
+{
+  "job_id": "bc4a7552-2c86-4f92-a82e-84efae440cea",
+  "total_shots": 22,
+  "analyzed_shots": 22,
+  "film_context": {
+    "job_id": "bc4a7552-2c86-4f92-a82e-84efae440cea",
+    "film_title": "未命名片段",
+    "director": "未知",
+    "production_year": 2024,
+    "country_of_production": "中国",
+    "political": "该片段对政治语境的探讨，若有，可能隐藏于其形式结构与写实描绘之间。形式主义手法或可用于构建某种意识形态批判或政治宣传，通过特定的剪辑节奏、景别调度来引导观众情绪。而写实主义的运用则可能意图揭示某种社会现实，反映权力结构下的个体境遇，或对特定政策、社会制度进行间接的审视和反思。",
+    "economic": "从经济角度看，影片的景别分布（中近景、中远景、特写等）和以固定镜头为主的运镜方式，暗示了一种对叙事效率和资源分配的考量。若有资金限制，则可能侧重于通过构图和剪辑来弥补，而非依赖复杂的运镜。同时，写实主义倾向或能聚焦于社会阶层差异、劳工生活、消费主义等经济议题，揭示其对个人命运的影响。",
+    "cultural": "文化层面的互文分析，将关注影片如何构建或解构特定文化符号、价值观与传统。中近景和特写可能用于捕捉人物情感和文化习俗的细节，而中远景则可展现宏大的文化背景。结合电影形式主义与写实主义，本片段可能试图在艺术表现与文化真实之间找到平衡，探索现代性对传统文化的影响，或反映特定社群的文化身份认同。",
+    "gender_sexuality": "在性别与性向维度上，影片若涉及人物，其景别选择和镜头调度（如特写聚焦于面部表情，中近景展现互动）将揭示其对性别角色、权力关系和性向表达的视角。形式主义的运用可能通过视觉隐喻或非线性叙事，挑战传统性别二元对立；写实主义则可能旨在呈现多元性向群体的生活状态，或反思社会对性别身份的刻板印象和压迫。",
+    "postcolonial": "尽管信息有限，但若将此片段置于后殖民语境下，则其形式选择和叙事策略或能映射出文化 Hegemony 与 Subaltern 的权力动态。写实主义可能被用来描绘被殖民或边缘化群体的生存现实，揭示其在西方强势文化影响下的身份困境。形式主义则可通过视觉上的断裂、拼贴，象征后殖民主体在文化认同上的分裂与重构。",
+    "technological": "技术层面，22个镜头的总数和混合的景别（中近景、中远景、特写）以及固定运镜为主的特点，表明创作者在有限的技术手段下，注重通过构图和剪辑来达成叙事目的。形式主义理论在此背景下，可能意味着对电影语言本身的自觉探索，即便技术相对朴素，也力图通过精确的画面组织与剪辑节奏来传达深层含义，展现技术与艺术的融合。",
+    "auteur_biography": "这位未知的创作者似乎在艺术表达上游走于“电影形式主义”与“电影写实主义”的张力之间。这暗示其可能是一位既重视电影语言的内在结构与美学形式，又致力于通过影像捕捉和呈现生活真实与社会肌理的导演。他/她可能偏好通过精心设计的构图、景别切换和运镜节奏（即便以固定镜头为主）来引导观众的情感和理解，而非单纯依赖剧情，力图在风格化与纪实性之间寻求独特的作者性平衡。",
+    "summary": "此片段共计22个镜头，景别分布多样，包含中近景、中远景、中景、特写等，显示出创作者在画面组织上的细致考量，旨在通过不同视角的切换来丰富信息传递。运镜以固定镜头为主，辅以少量未知运镜，暗示其在视觉呈现上更倾向于通过构图和剪辑的精确性来构建意义，而非过度依赖复杂的镜头运动。这种风格与所涉及的“电影形式主义与叙事分析”理论高度契合，强调影像自身的结构美学和叙事策略。同时，“电影写实主义理论”的提及，又为片段增添了一层对现实表现力的追求。整体而言，该片段在视觉风格上呈现出一种结构严谨而又兼具现实关怀的特质，其叙事逻辑可能在形式的自觉运用中揭示某种生活真实或深刻洞察。",
+    "search_keywords_en": [
+      "Film Formalism",
+      "Film Realism",
+      "Shot Analysis",
+      "Mise-en-scène",
+      "Narrative Theory",
+      "Cinematic Style",
+      "Editing",
+      "Shot Types"
+    ],
+    "search_keywords_cn": [
+      "电影形式主义",
+      "电影写实主义",
+      "景别分析",
+      "运镜方式",
+      "叙事分析",
+      "电影美学",
+      "剪辑",
+      "视听语言"
+    ],
+    "sources": [],
+    "sources_loaded": false,
+    "sources_error": "",
+    "context_loaded": true,
+    "context_error": ""
+  },
+  "shots": [
+    {
+      "shot_id": 1,
+      "start_time": 0.0,
+      "end_time": 1.7916666666666667,
+      "duration": 1.7916666666666667,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0001.jpg",
+      "keyframe_url": "/demo/frames/shot_0001.jpg"
+    },
+    {
+      "shot_id": 2,
+      "start_time": 1.7916666666666667,
+      "end_time": 6.583333333333333,
+      "duration": 4.791666666666666,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0002.jpg",
+      "keyframe_url": "/demo/frames/shot_0002.jpg"
+    },
+    {
+      "shot_id": 3,
+      "start_time": 6.583333333333333,
+      "end_time": 11.25,
+      "duration": 4.666666666666667,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0003.jpg",
+      "keyframe_url": "/demo/frames/shot_0003.jpg"
+    },
+    {
+      "shot_id": 4,
+      "start_time": 11.25,
+      "end_time": 17.666666666666668,
+      "duration": 6.416666666666668,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0004.jpg",
+      "keyframe_url": "/demo/frames/shot_0004.jpg"
+    },
+    {
+      "shot_id": 5,
+      "start_time": 17.666666666666668,
+      "end_time": 26.041666666666668,
+      "duration": 8.375,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0005.jpg",
+      "keyframe_url": "/demo/frames/shot_0005.jpg"
+    },
+    {
+      "shot_id": 6,
+      "start_time": 26.041666666666668,
+      "end_time": 27.958333333333332,
+      "duration": 1.9166666666666643,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0006.jpg",
+      "keyframe_url": "/demo/frames/shot_0006.jpg"
+    },
+    {
+      "shot_id": 7,
+      "start_time": 27.958333333333332,
+      "end_time": 30.333333333333332,
+      "duration": 2.375,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0007.jpg",
+      "keyframe_url": "/demo/frames/shot_0007.jpg"
+    },
+    {
+      "shot_id": 8,
+      "start_time": 30.333333333333332,
+      "end_time": 38.958333333333336,
+      "duration": 8.625000000000004,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0008.jpg",
+      "keyframe_url": "/demo/frames/shot_0008.jpg"
+    },
+    {
+      "shot_id": 9,
+      "start_time": 38.958333333333336,
+      "end_time": 45.458333333333336,
+      "duration": 6.5,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0009.jpg",
+      "keyframe_url": "/demo/frames/shot_0009.jpg"
+    },
+    {
+      "shot_id": 10,
+      "start_time": 45.458333333333336,
+      "end_time": 46.875,
+      "duration": 1.4166666666666643,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0010.jpg",
+      "keyframe_url": "/demo/frames/shot_0010.jpg"
+    },
+    {
+      "shot_id": 11,
+      "start_time": 46.875,
+      "end_time": 51.625,
+      "duration": 4.75,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0011.jpg",
+      "keyframe_url": "/demo/frames/shot_0011.jpg"
+    },
+    {
+      "shot_id": 12,
+      "start_time": 51.625,
+      "end_time": 55.083333333333336,
+      "duration": 3.4583333333333357,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0012.jpg",
+      "keyframe_url": "/demo/frames/shot_0012.jpg"
+    },
+    {
+      "shot_id": 13,
+      "start_time": 55.083333333333336,
+      "end_time": 59.458333333333336,
+      "duration": 4.375,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0013.jpg",
+      "keyframe_url": "/demo/frames/shot_0013.jpg"
+    },
+    {
+      "shot_id": 14,
+      "start_time": 59.458333333333336,
+      "end_time": 67.20833333333333,
+      "duration": 7.749999999999993,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0014.jpg",
+      "keyframe_url": "/demo/frames/shot_0014.jpg"
+    },
+    {
+      "shot_id": 15,
+      "start_time": 67.20833333333333,
+      "end_time": 67.83333333333333,
+      "duration": 0.625,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0015.jpg",
+      "keyframe_url": "/demo/frames/shot_0015.jpg"
+    },
+    {
+      "shot_id": 16,
+      "start_time": 67.83333333333333,
+      "end_time": 74.70833333333333,
+      "duration": 6.875,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0016.jpg",
+      "keyframe_url": "/demo/frames/shot_0016.jpg"
+    },
+    {
+      "shot_id": 17,
+      "start_time": 74.70833333333333,
+      "end_time": 81.875,
+      "duration": 7.166666666666671,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0017.jpg",
+      "keyframe_url": "/demo/frames/shot_0017.jpg"
+    },
+    {
+      "shot_id": 18,
+      "start_time": 81.875,
+      "end_time": 90.66666666666667,
+      "duration": 8.791666666666671,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0018.jpg",
+      "keyframe_url": "/demo/frames/shot_0018.jpg"
+    },
+    {
+      "shot_id": 19,
+      "start_time": 90.66666666666667,
+      "end_time": 96.54166666666667,
+      "duration": 5.875,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0019.jpg",
+      "keyframe_url": "/demo/frames/shot_0019.jpg"
+    },
+    {
+      "shot_id": 20,
+      "start_time": 96.54166666666667,
+      "end_time": 113.29166666666667,
+      "duration": 16.75,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0020.jpg",
+      "keyframe_url": "/demo/frames/shot_0020.jpg"
+    },
+    {
+      "shot_id": 21,
+      "start_time": 113.29166666666667,
+      "end_time": 131.5,
+      "duration": 18.20833333333333,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0021.jpg",
+      "keyframe_url": "/demo/frames/shot_0021.jpg"
+    },
+    {
+      "shot_id": 22,
+      "start_time": 131.5,
+      "end_time": 131.83333333333334,
+      "duration": 0.3333333333333428,
+      "keyframe_path": "/var/folders/15/bbyjcs8n0qn_0nvbhsfx6_v80000gn/T/filmlens/bc4a7552-2c86-4f92-a82e-84efae440cea/frames/shot_0022.jpg",
+      "keyframe_url": "/demo/frames/shot_0022.jpg"
+    }
+  ],
+  "analyses": {
+    "1": {
+      "shot_id": 1,
+      "shot_scale": "特写",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "浅景深",
+      "lighting_scheme": "低调",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "青绿色",
+        "棕褐色",
+        "近白"
+      ],
+      "primary_technique": "特写构图聚焦手部动作",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过特写强调了人物手部的具体操作，可能预示着某项活动即将开始或结束，或聚焦于角色与日常物品的互动。",
+      "context_links": [],
+      "paper_annotation": "导演以特写镜头聚焦于手部操作台灯的细节，运用浅景深和低调照明，营造出一种私密而沉静的氛围，暗示着即将开始的专注时刻或对日常行为的细致观察。",
+      "annotation_locked": true,
+      "annotation_hash": "f94ceb0ad49494bf87dbebade37b0717cb9f3678088d37033fe3cb246727c280"
+    },
+    "2": {
+      "shot_id": 2,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "白色",
+        "赭石",
+        "近黑"
+      ],
+      "primary_technique": "细节特写以突出专注感",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "引入角色的当前活动或心境，强调细节",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头通过展示角色处理大量学习资料的场景，建立了其勤奋好学的形象。它推动了观众对角色日常生活的理解，并暗示了其可能面临的学业压力或智力挑战。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景聚焦于角色忙碌的双手与堆叠的纸张，配合中等景深和暖调自然光，营造出一种沉浸于学习或工作的氛围，暗示了角色的专注与勤奋。",
+      "annotation_locked": true,
+      "annotation_hash": "3fb59d4b2cb023cb66aa3554353d972335855f24b479f9ff03b54d73791de6b1"
+    },
+    "3": {
+      "shot_id": 3,
+      "shot_scale": "特写",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "浅景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "草绿",
+        "米白",
+        "深红"
+      ],
+      "primary_technique": "浅景深特写聚焦细节",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "聚焦细节，强化情感或象征意义",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头通过特写强调了红绳及其上的物件，暗示其在叙事中的重要性，并建立了角色间细微的情感连接。",
+      "context_links": [],
+      "paper_annotation": "导演以浅景深特写聚焦于角色双手及其间的红绳，细腻地展现了物件的细节与动作的专注，暗示其承载的深层情感或叙事线索。",
+      "annotation_locked": true,
+      "annotation_hash": "e59c2332402f9bbcaf33883c02bf095b9805cae1a372a0afc3fdc05ad02457b6"
+    },
+    "4": {
+      "shot_id": 4,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "浅景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "白色",
+        "棕色",
+        "近黑"
+      ],
+      "primary_technique": "中近景突出关键物品",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "引导观众关注画面中呈现的特定物品，强调其在叙事中的潜在意义。",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头引入了一个关键的叙事物品——白色盒子，通过聚焦其细节来提示观众它的重要性，从而推动情节发展。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景聚焦于角色手中所持的白色盒子，通过浅景深突出其作为叙事关键物品的地位，引导观众关注其细节与潜在意义。",
+      "annotation_locked": true,
+      "annotation_hash": "5928d7550b124a2c68eb202e614da8c938b3822f5f1acd8226e781ec0fcab8aa"
+    },
+    "5": {
+      "shot_id": 5,
+      "shot_scale": "未知",
+      "camera_movement": "未知",
+      "camera_angle": "未知",
+      "depth_of_field": "未知",
+      "lighting_scheme": "未知",
+      "color_temperature": "未知",
+      "dominant_colors": [],
+      "primary_technique": "未知",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头在叙事中的具体功能无法从全黑画面中判断，可能代表场景切换、时间流逝或角色意识中断，但具体作用未知。",
+      "context_links": [],
+      "paper_annotation": "该全黑帧无法提供任何视觉信息，其在电影中的具体作用（如过场、蒙太奇空隙或象征性中断）需结合前后镜头及叙事语境判断。",
+      "annotation_locked": true,
+      "annotation_hash": "6745f6c54f3646a1c16aa5063bad6f85267d042757754cb4474e33389dc4bdb7"
+    },
+    "6": {
+      "shot_id": 6,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "浅棕",
+        "深红",
+        "粉色"
+      ],
+      "primary_technique": "捕捉童年日常瞬间",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过捕捉两名儿童进食西瓜的日常场景，展现了她们之间的亲密关系，并为观众提供了角色生活状态的直接观察。它推进了对人物性格和情感联结的理解。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景固定镜头捕捉了两名儿童分享西瓜的日常瞬间，其自然光与暖调色彩营造出温馨亲密的氛围，有力地展现了人物间的童真与情感联结。",
+      "annotation_locked": true,
+      "annotation_hash": "889d3ac5f3859b3f97214636bc91650e4d553d5db080c709cfee882630a0f6e4"
+    },
+    "7": {
+      "shot_id": 7,
+      "shot_scale": "中景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "翠绿",
+        "灰褐",
+        "浅灰"
+      ],
+      "primary_technique": "前景遮挡与构图不平衡",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过前景的树木遮挡，建立了一个观察性的户外场景，并暗示了角色可能处于一种被审视或隐藏的状态。",
+      "context_links": [],
+      "paper_annotation": "导演利用前景的树干部分遮挡画面左侧的人物，形成一种自然的框景效果，同时营造出一种窥视感或角色被环境所局限的视觉暗示。",
+      "annotation_locked": true,
+      "annotation_hash": "783572e8c3bbd38ae121cf1d5bd6c0e6b114b48a87c948497342167aa88ca391"
+    },
+    "8": {
+      "shot_id": 8,
+      "shot_scale": "中远景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "冷调",
+      "dominant_colors": [
+        "绿色",
+        "蓝色",
+        "灰色"
+      ],
+      "primary_technique": "画面叠化",
+      "theoretical_connections": [
+        {
+          "theory_name_cn": "电影写实主义理论",
+          "theory_name_en": "The Ontology of the Photographic Image",
+          "theorist_cn": "安德烈·巴赞",
+          "theorist_en": "André Bazin",
+          "year": 1945,
+          "description": "本镜头通过画面叠化将多个人物和环境重叠，明显打破了巴赞所推崇的单一、客观的摄影现实。它运用电影的技巧创造了一个主观或记忆化的空间，展现了电影超越纯粹索引式记录，表达心理状态的能力。",
+          "search_keywords_en": [
+            "Bazin",
+            "realism",
+            "photographic image",
+            "montage"
+          ],
+          "search_keywords_cn": [
+            "巴赞",
+            "写实主义",
+            "摄影本体论",
+            "蒙太奇"
+          ],
+          "sources": [
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "The Ontology of the Photographic Image",
+              "title_cn": "",
+              "title_en": "",
+              "author": "André Bazin",
+              "year": 1960,
+              "journal": "Film Quarterly",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.2307/1210183",
+              "doi": "10.2307/1210183",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "André Bazin's \"ontology of the photographic image\" : representation, desire, and presence",
+              "title_cn": "",
+              "title_en": "",
+              "author": "Stephen Rifkin",
+              "year": 1945,
+              "journal": "",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.22215/etd/2011-09532",
+              "doi": "10.22215/etd/2011-09532",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "The Ontology of the Photographic Image",
+              "title_cn": "",
+              "title_en": "",
+              "author": "Andre Bazin",
+              "year": 1960,
+              "journal": "Film Quarterly",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.1525/fq.1960.13.4.04a00030",
+              "doi": "10.1525/fq.1960.13.4.04a00030",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "JSTOR",
+              "region": "US",
+              "title": "在 JSTOR 搜索：The Ontology of the Photographic Image",
+              "title_cn": "",
+              "title_en": "",
+              "author": "André Bazin",
+              "year": 1945,
+              "journal": "",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://www.jstor.org/action/doBasicSearch?Query=The%20Ontology%20of%20the%20Photographic%20Image%20Andr%C3%A9%20Bazin",
+              "doi": "",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            }
+          ],
+          "sources_loaded": true,
+          "sources_error": ""
+        }
+      ],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "通过画面叠化创造时间或情感上的交错感，表达潜意识或记忆。",
+        "specific_techniques": [
+          "画面叠化"
+        ],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut",
+          "superimposition"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向",
+          "画面叠化"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头通过画面叠化，暗示了角色内心的复杂情感或时间与记忆的交织，它深化了叙事的心理层面而非推动线性情节。",
+      "context_links": [],
+      "paper_annotation": "导演以画面叠化的非写实手法呈现多重人物与环境，营造出梦幻般的视觉效果，以具象化角色错综复杂的内在情感与记忆的交织（参见 Bazin, 1945, pp.1-9）。",
+      "annotation_locked": true,
+      "annotation_hash": "f235fab4b22b13279528afcc739fea4fff40846b8094567c62305eb4a6f558cc"
+    },
+    "9": {
+      "shot_id": 9,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "浅米色",
+        "深棕",
+        "白色"
+      ],
+      "primary_technique": "近距离构图展现人物关系",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头通过家庭晚餐场景，直观呈现了角色之间的日常互动与情感联系。它引入了关键叙事信息，预示着主人公即将面临的重大生活转变。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景固定机位捕捉家庭用餐场景，通过自然光营造出写实的生活氛围。此构图聚焦于人物的互动，有效传达了叙事中的关键信息，并暗示了即将到来的情感转折。",
+      "annotation_locked": true,
+      "annotation_hash": "2de620a20193a6af3e566c86e5b3c40af8b45d686a2efe20a839b5d3a47be898"
+    },
+    "10": {
+      "shot_id": 10,
+      "shot_scale": "未知",
+      "camera_movement": "固定",
+      "camera_angle": "未知",
+      "depth_of_field": "未知",
+      "lighting_scheme": "未知",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "近黑",
+        "纯白"
+      ],
+      "primary_technique": "字幕呈现",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "在叙事中插入直接的文本信息，提供关键对话或旁白，以确保观众理解情节。",
+        "specific_techniques": [
+          "插入字幕"
+        ],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut",
+          "intertitle",
+          "text on screen"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向",
+          "字幕",
+          "插页字幕"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过文字直接传达了叙事信息，表明了角色即将离开但会归来的意图，从而推动了情节发展并设定了观众的预期。",
+      "context_links": [],
+      "paper_annotation": "导演在此运用纯黑背景上的白色字幕，直接呈现人物台词，以简洁明了的方式向观众传递关键叙事信息，确保理解并引导情感预期。",
+      "annotation_locked": true,
+      "annotation_hash": "c1887b345dadff8ad6536505151494056aa2099ac9477407bae7232dddc1de83"
+    },
+    "11": {
+      "shot_id": 11,
+      "shot_scale": "中景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "未知",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "天蓝",
+        "墨绿",
+        "浅灰"
+      ],
+      "primary_technique": "画面叠加与虚化",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "叠化",
+        "next_shot_relation": "延续",
+        "editing_function": "此叠加剪辑点旨在模糊现实与记忆的界限，用视觉隐喻强化角色的情感困境，为叙事注入更深层次的心理维度。",
+        "specific_techniques": [
+          "叠化",
+          "多重曝光"
+        ],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "superimposition",
+          "dissolve",
+          "multiple exposure"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "叠化",
+          "多重曝光",
+          "画面叠加"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过画面叠加将人物的内在情绪与外部环境融合，表达了角色沉浸于回忆或复杂情感的内心状态。它深化了影片的诗意氛围，而非直接推动情节发展。",
+      "context_links": [],
+      "paper_annotation": "导演运用画面叠加与虚化处理，将人物与游乐场环境融合，营造出一种模糊、梦幻的视觉效果，以此具象化角色沉浸于回忆或复杂情绪的内心状态，为叙事增添了诗意化的情感深度。",
+      "annotation_locked": true,
+      "annotation_hash": "0576348a4089f3c8fb427d4402ef960371581b6cb102dafa1160e139d63030a6"
+    },
+    "12": {
+      "shot_id": 12,
+      "shot_scale": "中近景",
+      "camera_movement": "未知",
+      "camera_angle": "仰角",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "冷调",
+      "dominant_colors": [
+        "蓝色",
+        "青色",
+        "灰色"
+      ],
+      "primary_technique": "低位构图展现人物关系",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头通过聚焦于人物的肢体而非面部，营造出一种亲密而略带伤感的氛围。它暗示了角色间情感的脆弱性与不确定性，为后续叙事中可能出现的分别或情感波折埋下伏笔。",
+      "context_links": [],
+      "paper_annotation": "导演运用低位中近景构图，聚焦于人物在秋千上的肢体互动，辅以冷静的色调和中等景深，营造出一种亲密而略带疏离感的氛围，暗示了角色之间情感的脆弱与不确定性。",
+      "annotation_locked": true,
+      "annotation_hash": "ec72cb113384416b5bbf96c47b312b5496007305f3489eb57257176861ca4d94"
+    },
+    "13": {
+      "shot_id": 13,
+      "shot_scale": "未知",
+      "camera_movement": "固定",
+      "camera_angle": "未知",
+      "depth_of_field": "未知",
+      "lighting_scheme": "未知",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "纯黑",
+        "纯白"
+      ],
+      "primary_technique": "屏幕文字呈现",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "淡入",
+        "cut_type_out": "淡出",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "主题引入",
+        "next_shot_relation": "情节开启",
+        "editing_function": "引入核心主题，提供叙事上的停顿与思考空间。",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "intertitle",
+          "title card",
+          "thematic transition"
+        ],
+        "search_keywords_cn": [
+          "插卡",
+          "片头",
+          "主题转场"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头通过直接提问的方式，确立了影片关于距离与情感障碍的核心主题，预示了叙事将围绕这一命题展开探讨。",
+      "context_links": [],
+      "paper_annotation": "导演运用黑底白字的屏幕文字，以直接发问的形式，清晰地引入了影片关于距离作为障碍的核心议题，为后续叙事奠定了情感基调和主题方向。",
+      "annotation_locked": true,
+      "annotation_hash": "e096683dc5b77fda9ef40c7cdb50356db2ad0c743d239e9b2f67af74de71412c"
+    },
+    "14": {
+      "shot_id": 14,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "混合",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "近黑",
+        "棕色",
+        "浅绿"
+      ],
+      "primary_technique": "画中画构图与数字媒介",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头通过视频通话展示了角色间的远程交流，并揭示了屏幕中人物的脆弱情感状态，从而推动了叙事中人物关系的进展。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景固定镜头捕捉桌面一隅，通过手机屏幕内的画中画构图，聚焦于人物的线上交流。暖调光线与中等景深共同营造出一种私密而略显忧郁的氛围，凸显了人物情感的脆弱性与距离感。",
+      "annotation_locked": true,
+      "annotation_hash": "f7b5345cc9935f2114aaa2bb6d6042f47b9c6d7832d98d060923d42bff561e7c"
+    },
+    "15": {
+      "shot_id": 15,
+      "shot_scale": "未知",
+      "camera_movement": "未知",
+      "camera_angle": "未知",
+      "depth_of_field": "未知",
+      "lighting_scheme": "未知",
+      "color_temperature": "未知",
+      "dominant_colors": [],
+      "primary_technique": "未知",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头在叙事中的具体功能无法从全黑画面中判断，可能代表场景切换、时间流逝或角色意识中断，但具体作用未知。",
+      "context_links": [],
+      "paper_annotation": "该全黑帧无法提供任何视觉信息，其在电影中的具体作用（如过场、蒙太奇空隙或象征性中断）需结合前后镜头及叙事语境判断。",
+      "annotation_locked": true,
+      "annotation_hash": "6745f6c54f3646a1c16aa5063bad6f85267d042757754cb4474e33389dc4bdb7"
+    },
+    "16": {
+      "shot_id": 16,
+      "shot_scale": "中远景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "混合",
+      "color_temperature": "混合",
+      "dominant_colors": [
+        "深棕",
+        "灰白",
+        "浅绿"
+      ],
+      "primary_technique": "门框构图与光线对比",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头引入了人物在家庭空间中的存在，通过其站位和朝向，暗示其对画外某个对象或事件的反应。它为即将展开的对话或情节冲突提供了视觉上的空间定位。",
+      "context_links": [],
+      "paper_annotation": "导演利用自然光从背景窗户透入，与前景门框的阴影形成对比，将人物置于一个日常且略带神秘感的空间中，强调其入画的瞬间。",
+      "annotation_locked": true,
+      "annotation_hash": "2e00d15a5295721a356a8dcea1ab152f2e21e92b74eaae8cfc8cf79a8df85a60"
+    },
+    "17": {
+      "shot_id": 17,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "浅景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "近黑",
+        "米白",
+        "土黄"
+      ],
+      "primary_technique": "前景遮挡构图，突出主体",
+      "theoretical_connections": [
+        {
+          "theory_name_cn": "电影形式主义与叙事分析",
+          "theory_name_en": "Classical Film Form and Style",
+          "theorist_cn": "大卫·波德维尔 & 克里斯汀·汤普森",
+          "theorist_en": "David Bordwell & Kristin Thompson",
+          "year": 1979,
+          "description": "该镜头通过前景（暗色头发）的局部遮挡和浅景深，将观众的注意力精确引导至人物面部，同时营造出一种私密或受限的观看视角。这种对视觉信息的严密控制，与波德维尔和汤普森关于经典叙事如何组织观众感知、管理信息流以推动情节和情感的论述相符。",
+          "search_keywords_en": [
+            "Bordwell",
+            "Thompson",
+            "classical narration",
+            "film form",
+            "perceptual salience",
+            "framing"
+          ],
+          "search_keywords_cn": [
+            "波德维尔",
+            "汤普森",
+            "经典叙事",
+            "电影形式",
+            "感知显著性",
+            "构图"
+          ],
+          "sources": [
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "The Classical Hollywood Cinema",
+              "title_cn": "",
+              "title_en": "",
+              "author": "David Bordwell",
+              "year": 1979,
+              "journal": "",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.4324/9780203358818",
+              "doi": "10.4324/9780203358818",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "Review: The Classical Hollywood Cinema: Film Style and Mode of Production to 1960 by David Bordwell, Janet Staiger, Kristin Thompson",
+              "title_cn": "",
+              "title_en": "",
+              "author": "John Fell",
+              "year": 1987,
+              "journal": "Film Quarterly",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.2307/1212466",
+              "doi": "10.2307/1212466",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "CrossRef",
+              "region": "INTL",
+              "title": "The Classical Hollywood Cinema: Film Style &amp; Mode of Production to 1960",
+              "title_cn": "",
+              "title_en": "",
+              "author": "David Bordwell",
+              "year": 1986,
+              "journal": "Poetics Today",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://doi.org/10.2307/1772109",
+              "doi": "10.2307/1772109",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            },
+            {
+              "database": "JSTOR",
+              "region": "US",
+              "title": "在 JSTOR 搜索：Classical Film Form and Style",
+              "title_cn": "",
+              "title_en": "",
+              "author": "David Bordwell & Kristin Thompson",
+              "year": 1979,
+              "journal": "",
+              "volume_issue": "",
+              "pages": "",
+              "url": "https://www.jstor.org/action/doBasicSearch?Query=Classical%20Film%20Form%20and%20Style%20David%20Bordwell%20%26%20Kristin%20Thompson",
+              "doi": "",
+              "is_open_access": false,
+              "pdf_url": "",
+              "citation_count": 0
+            }
+          ],
+          "sources_loaded": true,
+          "sources_error": ""
+        }
+      ],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头通过特写人物面部，暗示其细微的情绪变化或内心活动。前景遮挡则营造出一种窥视感，预示着私密或重要的信息将被揭示。",
+      "context_links": [],
+      "paper_annotation": "该镜头通过前景的局部遮挡和浅景深，精确引导观众注意力至人物面部，营造出私密且受限的观看视角。这种对视觉信息的严密控制，与波德维尔和汤普森关于经典叙事如何组织观众感知的论述相符（参见 Bordwell & Thompson, 1979, pp.70–85）。",
+      "annotation_locked": true,
+      "annotation_hash": "e9d26f494de69b02421198a6e6564c968fb0299dfae90cfd3f99f45ec1ab88d1"
+    },
+    "18": {
+      "shot_id": 18,
+      "shot_scale": "特写",
+      "camera_movement": "固定",
+      "camera_angle": "俯角",
+      "depth_of_field": "浅景深",
+      "lighting_scheme": "混合",
+      "color_temperature": "暖调",
+      "dominant_colors": [
+        "近黑",
+        "深棕",
+        "米白"
+      ],
+      "primary_technique": "特写景别与浅景深聚焦",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "该剪辑点将观众注意力集中到屏幕上的关键信息，强调了角色的情感状态和叙事的核心矛盾。",
+        "specific_techniques": [
+          "聚焦剪辑"
+        ],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut",
+          "close-up",
+          "detail"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向",
+          "特写",
+          "细节"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "这个镜头揭示了角色正尝试联系某人但未获回应，同时对方却活跃于社交媒体，从而推动了叙事中关于关系不对等和情感隔阂的冲突。",
+      "context_links": [],
+      "paper_annotation": "导演以特写景别和浅景深聚焦于手机屏幕，强调了数字交流的单向性与未获回应的沮丧，通过视觉细节直接呈现了角色的情感困境。",
+      "annotation_locked": true,
+      "annotation_hash": "1839d2469e5547d1cd76b9d10e5dcde718db2a49fa2bc2d8dff8f85ef99e717a"
+    },
+    "19": {
+      "shot_id": 19,
+      "shot_scale": "中远景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "冷调",
+      "dominant_colors": [
+        "深绿",
+        "灰色",
+        "近黑"
+      ],
+      "primary_technique": "环境中的人物关系建立",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "切入",
+        "cut_type_out": "切出",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "承接",
+        "next_shot_relation": "轴线切换",
+        "editing_function": "维持空间连续性，展现人物行进与对话的自然流淌。",
+        "specific_techniques": [
+          "常规剪辑"
+        ],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut",
+          "continuity"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向",
+          "连续性"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头将两位人物置于户外环境中，通过她们的行走与对话，推动了叙事的时间和空间进程，并为接下来的情节点做了铺垫。",
+      "context_links": [],
+      "paper_annotation": "导演以中远景固定镜头展现两位人物在自然环境中的行进，平实的构图和自然光线营造出日常感，推动叙事进程，并为观众提供了人物对话的视觉背景。",
+      "annotation_locked": true,
+      "annotation_hash": "1e0a0d3267ba92278639169828001b8b93356f188613f0f40a7267ace83548b6"
+    },
+    "20": {
+      "shot_id": 20,
+      "shot_scale": "中近景",
+      "camera_movement": "固定",
+      "camera_angle": "平视",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "冷调",
+      "dominant_colors": [
+        "淡灰",
+        "纯白",
+        "金黄"
+      ],
+      "primary_technique": "中近景构图凸显情绪",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "沉稳",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "此镜头通过人物的低垂姿态和字幕，直接展现了角色的内心情感状态，推动观众理解其未表达的思绪与潜在的遗憾。",
+      "context_links": [],
+      "paper_annotation": "导演以中近景固定镜头聚焦人物面部与上半身，结合冷调色彩和低垂的姿态，直观地呈现了角色深沉的内省与未言的思绪，为叙事奠定情感基调。",
+      "annotation_locked": true,
+      "annotation_hash": "f83cbd59d91e8c2a9264618778f38193aba2c46d9d6c100aed2ea2dbfc8d9c09"
+    },
+    "21": {
+      "shot_id": 21,
+      "shot_scale": "中近景",
+      "camera_movement": "未知",
+      "camera_angle": "仰角",
+      "depth_of_field": "中等景深",
+      "lighting_scheme": "自然光",
+      "color_temperature": "中性",
+      "dominant_colors": [
+        "深蓝",
+        "青色",
+        "灰白"
+      ],
+      "primary_technique": "运动模糊与动态构图",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "动态",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头通过捕捉人物在秋千上的动态，建立了一个放松或略显模糊的场景氛围，暗示了角色的某种情感状态或日常活动。它推动了对角色当前情绪的感知。",
+      "context_links": [],
+      "paper_annotation": "导演运用中近景仰角构图捕捉人物在秋千上的动态，通过运动模糊强调了瞬间的活力与不确定感。自然光与中性色调营造出一种日常且略显低沉的氛围，将观众的注意力集中在角色的身体运动上。",
+      "annotation_locked": true,
+      "annotation_hash": "e47bb3fce1fcb78c77c5e5a9ea84662e50bcfb9c9c4e5bb4da74cc124bae4356"
+    },
+    "22": {
+      "shot_id": 22,
+      "shot_scale": "未知",
+      "camera_movement": "未知",
+      "camera_angle": "未知",
+      "depth_of_field": "未知",
+      "lighting_scheme": "未知",
+      "color_temperature": "未知",
+      "dominant_colors": [],
+      "primary_technique": "未知",
+      "theoretical_connections": [],
+      "motifs_symbols": [],
+      "editing": {
+        "cut_type_in": "未知",
+        "cut_type_out": "未知",
+        "rhythm_feel": "未知",
+        "prev_shot_relation": "未知",
+        "next_shot_relation": "未知",
+        "editing_function": "未知",
+        "specific_techniques": [],
+        "search_keywords_en": [
+          "editing",
+          "montage",
+          "cut"
+        ],
+        "search_keywords_cn": [
+          "剪辑",
+          "蒙太奇",
+          "切向"
+        ],
+        "sources": [],
+        "sources_loaded": false,
+        "sources_error": ""
+      },
+      "narrative_function": "该镜头在叙事中的具体功能无法从全黑画面中判断，可能代表场景切换、时间流逝或角色意识中断，但具体作用未知。",
+      "context_links": [],
+      "paper_annotation": "该全黑帧无法提供任何视觉信息，其在电影中的具体作用（如过场、蒙太奇空隙或象征性中断）需结合前后镜头及叙事语境判断。",
+      "annotation_locked": true,
+      "annotation_hash": "6745f6c54f3646a1c16aa5063bad6f85267d042757754cb4474e33389dc4bdb7"
+    }
+  }
+}

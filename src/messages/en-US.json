@@ -19,7 +19,9 @@
     "titleEn": "Film Title (English)",
     "directorEn": "Director (English)",
     "placeholderCn": "e.g. In the Mood for Love",
-    "placeholderDirector": "e.g. Wong Kar-wai"
+    "placeholderDirector": "e.g. Wong Kar-wai",
+    "demoToggle": "Server limited? Use the interactive demo",
+    "demoButton": "Run Demo"
   },
   "Analyze": {
     "title": "FilmLens AI",

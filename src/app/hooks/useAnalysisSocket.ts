@@ -19,6 +19,21 @@ export function useAnalysisSocket(jobId: string | null) {
   const addChatMessage = useFilmStore(state => state.addChatMessage)
 
   const sendMessage = (data: any) => {
+    if (jobId === 'demo') {
+      console.log("[Demo] Mocking message send:", data)
+      if (data.event === 'chat_request') {
+        setTimeout(() => {
+          addChatMessage({
+            id: Math.random().toString(36).substring(7),
+            role: 'assistant',
+            content: "This is a pre-analyzed demo. In the full version, the AI will answer your specific questions about this shot based on its deep cinematic analysis.",
+            timestamp: Date.now(),
+            shotId: data.shot_id
+          })
+        }, 1000)
+      }
+      return
+    }
     if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
       wsRef.current.send(JSON.stringify(data))
     }
@@ -26,6 +41,50 @@ export function useAnalysisSocket(jobId: string | null) {
 
   useEffect(() => {
     if (!jobId) return
+
+    // --- DEMO MODE SIMULATION ---
+    if (jobId === 'demo') {
+      setIsConnected(true)
+      setAnalyzing(true)
+      
+      const runDemo = async () => {
+        try {
+          const res = await fetch('/demo/analysis.json')
+          const data = await res.json()
+          
+          setVideoUrl('/demo/video.mp4')
+          
+          // Simulate latency for a "vibe"
+          await new Promise(r => setTimeout(r, 800))
+          setShots(data.shots)
+          
+          await new Promise(r => setTimeout(r, 500))
+          setFilmContext(data.film_context)
+
+          if (data.film_context.research_map) {
+             setFilmContext({
+                  ...data.film_context,
+                  research_map: data.film_context.research_map
+             })
+          }
+
+          // Progressively reveal analysis to look "live"
+          const analyzes = Object.entries(data.analyses)
+          for (const [id, analysis] of analyzes) {
+            receiveAnalysis(Number(id), analysis as any)
+            await new Promise(r => setTimeout(r, 400 + Math.random() * 600))
+          }
+          
+          setAnalyzing(false)
+        } catch (e) {
+          console.error("[Demo] Error loading demo data:", e)
+          setError("Failed to load demo data.")
+        }
+      }
+      
+      runDemo()
+      return
+    }
 
     let reconnectTimeout: NodeJS.Timeout
     const WS_URL = process.env.NEXT_PUBLIC_WS_URL || "ws://localhost:8000"

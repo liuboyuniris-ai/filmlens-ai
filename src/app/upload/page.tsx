@@ -198,7 +198,7 @@ export default function UploadPage() {
           onDragOver={handleDragOver}
           onDragLeave={handleDragLeave}
           onDrop={handleDrop}
-          className={`relative flex flex-col items-center justify-center h-[420px] border-2 border-dashed rounded-[20px] transition-all duration-300 ${
+          className={`relative flex flex-col items-center justify-center h-[340px] border-2 border-dashed rounded-[20px] transition-all duration-300 ${
             isUploading ? 'border-gray-800 bg-[#0A0A0A] cursor-not-allowed' :
             isDragging ? 'border-[#5B4FCF] bg-[#5B4FCF]/10 cursor-copy scale-[1.02]' : 
             'border-gray-700 bg-[#0F0F0F] hover:border-gray-500 hover:bg-[#1A1A1A] hover:shadow-lg cursor-pointer'
@@ -245,6 +245,19 @@ export default function UploadPage() {
             </div>
           )}
         </div>
+
+        {/* Demo Mode Toggle */}
+        {!isUploading && (
+           <div className="mt-12 text-center border-t border-gray-900 pt-8">
+              <p className="text-[12px] text-gray-600 mb-4 font-medium uppercase tracking-[0.1em]">{t('demoToggle')}</p>
+              <button 
+                onClick={() => router.push('/analyze/demo')}
+                className="px-8 py-3 bg-[#1A1A1A] hover:bg-[#252525] border border-gray-800 rounded-full text-[14px] font-semibold text-gray-300 transition-all hover:border-gray-600 hover:text-white"
+              >
+                {t('demoButton')}
+              </button>
+           </div>
+        )}
       </div>
     </div>
   )
